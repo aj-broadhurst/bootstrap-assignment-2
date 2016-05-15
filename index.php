@@ -76,7 +76,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3">
-							<img src="images/placeholderKitty.jpg" class="img-rounded" alt="image">
+							<img src="images/placeholderKitty.jpg" class="img-circle" alt="image">
 						</div>
 						<div class="col-md-3 col-md-push-3">
 								<div class="well">
@@ -85,7 +85,7 @@
 								</div>
 						</div>
 						<div class="col-md-3 col-md-pull-3">
-							<img src="images/placeholderKitty.jpg" class="img-rounded" alt="image">
+							<img src="images/placeholderKitty.jpg" class="img-circle" alt="image">
 						</div>
 						<div class="col-md-3">
 							<div class="well">
@@ -96,7 +96,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-3">
-							<img src="images/placeholderKitty.jpg" class="img-rounded" alt="image">
+							<img src="images/placeholderKitty.jpg" class="img-circle" alt="image">
 						</div>
 						<div class="col-md-3">
 							<div class="well">
@@ -105,7 +105,7 @@
 							</div>
 						</div>
 						<div class="col-md-3">
-							<img src="images/placeholderKitty.jpg" class="img-rounded" alt="image">
+							<img src="images/placeholderKitty.jpg" class="img-circle" alt="image">
 						</div>
 						<div class="col-md-3">
 							<div class="well">
@@ -117,5 +117,16 @@
 				</div>
 			</main>
 		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class=" text-center">
+							<p>Copyright Text</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
