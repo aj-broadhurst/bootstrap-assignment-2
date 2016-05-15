@@ -41,12 +41,81 @@
 		<title>Bootstrap Assignment</title>
 	</head>
 
-	<body>
-		<header>
-			<!-- Nav bar here -->
-		</header>
-		<main>
-
-		</main>
+	<body class="sfooter">
+		<div class="sfooter-content">
+			<header>
+				<!-- Nav bar here -->
+			</header>
+			<main>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="well text-center">
+								<h1>Welcome Message</h1>
+								<p>Your text here</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<img src="images/placeholderKitty400.jpg" class="img-responsive" alt="placeholder kitty">
+						</div>
+						<div class="col-md-9">
+							<div class="well">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac ullamcorper est. Nulla
+									mauris ipsum, egestas id velit pellentesque, consectetur euismod massa. Sed eget euismod
+									dolor. Sed aliquam eu quam porttitor bibendum. Mauris dignissim enim sit amet metus egestas
+									tincidunt. Etiam vehicula ligula ut justo tincidunt mattis. Nullam ligula turpis, placerat
+									nec luctus pulvinar, luctus at nisi. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<img src="images/placeholderKitty.jpg" class="img-rounded" alt="image">
+						</div>
+						<div class="col-md-3 col-md-push-3">
+								<div class="well">
+									<h4>heading</h4>
+									<p>text here</p>
+								</div>
+						</div>
+						<div class="col-md-3 col-md-pull-3">
+							<img src="images/placeholderKitty.jpg" class="img-rounded" alt="image">
+						</div>
+						<div class="col-md-3">
+							<div class="well">
+								<h4>heading</h4>
+								<p>text here</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<img src="images/placeholderKitty.jpg" class="img-rounded" alt="image">
+						</div>
+						<div class="col-md-3">
+							<div class="well">
+								<h4>heading</h4>
+								<p>text here</p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<img src="images/placeholderKitty.jpg" class="img-rounded" alt="image">
+						</div>
+						<div class="col-md-3">
+							<div class="well">
+								<h4>heading</h4>
+								<p>text here</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
 	</body>
 </html>
