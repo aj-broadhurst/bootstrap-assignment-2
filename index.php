@@ -46,6 +46,8 @@
 			<header>
 				<!-- Nav bar here -->
 				<div class="container">
+					<nav class="navbar navbar-default">
+
 							<!-- Brand and toggle get grouped for better mobile display -->
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
@@ -65,15 +67,17 @@
 									<li class="dropdown">
 										<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
 										<ul class="dropdown-menu">
-											<li><a href="http://www.google.com">Action</a></li>
-											<li><a href="http://www.amazon.com">Another action</a></li>
-											<li><a href="http://www.bootcamp-coders.cnm.edu">Something else here</a></li>
+											<li><a href="http://www.google.com">Google</a></li>
+											<li><a href="http://www.amazon.com">Amazon</a></li>
+											<li><a href="http://www.bootcamp-coders.cnm.edu">Bootcamp Coders</a></li>
 											<li role="separator" class="divider"></li>
-											<li><a href="http://www.youtube.com">Separated link</a></li>
+											<li><a href="http://www.youtube.com">Youtube</a></li>
 										</ul>
 									</li>
 								</ul>
 							</div><!-- /.navbar-collapse -->
+
+					</nav>
 				</div>
 			</header>
 			<main>
@@ -105,19 +109,19 @@
 				</div>
 				<div class="container">
 					<div class="row">
-						<div class="col-md-3">
+						<div class="col-md-3 visible-xs-block">
 							<img src="images/placeholderKitty.jpg" class="img-circle" alt="image">
 						</div>
-						<div class="col-md-3 col-md-push-3">
+						<div class="col-md-3 visible-xs-block">
 								<div class="well">
 									<h4>heading</h4>
 									<p>text here</p>
 								</div>
 						</div>
-						<div class="col-md-3 col-md-pull-3">
+						<div class="col-md-3 visible-xs-block">
 							<img src="images/placeholderKitty.jpg" class="img-circle" alt="image">
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 visible-xs-block">
 							<div class="well">
 								<h4>heading</h4>
 								<p>text here</p>
@@ -125,19 +129,19 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-3">
+						<div class="col-md-3 visible-xs-block">
 							<img src="images/placeholderKitty.jpg" class="img-circle" alt="image">
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 visible-xs-block">
 							<div class="well">
 								<h4>heading</h4>
 								<p>text here</p>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 visible-xs-block">
 							<img src="images/placeholderKitty.jpg" class="img-circle" alt="image">
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 visible-xs-block">
 							<div class="well">
 								<h4>heading</h4>
 								<p>text here</p>
@@ -145,6 +149,49 @@
 						</div>
 					</div>
 				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 hidden-xs">
+							<img src="images/placeholderKitty.jpg" class="img-circle" alt="image">
+						</div>
+						<div class="col-md-3 hidden-xs">
+							<img src="images/placeholderKitty.jpg" class="img-circle" alt="image">
+						</div>
+						<div class="col-md-3 hidden-xs">
+							<img src="images/placeholderKitty.jpg" class="img-circle" alt="image">
+						</div>
+						<div class="col-md-3 hidden-xs">
+							<img src="images/placeholderKitty.jpg" class="img-circle" alt="image">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 hidden-xs">
+							<div class="well">
+								<h4>heading</h4>
+								<p>text here</p>
+							</div>
+						</div>
+						<div class="col-md-3 hidden-xs">
+							<div class="well">
+								<h4>heading</h4>
+								<p>text here</p>
+							</div>
+						</div>
+						<div class="col-md-3 hidden-xs">
+							<div class="well">
+								<h4>heading</h4>
+								<p>text here</p>
+							</div>
+						</div>
+						<div class="col-md-3 hidden-xs">
+							<div class="well">
+								<h4>heading</h4>
+								<p>text here</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</main>
 		</div>
 		<footer>
